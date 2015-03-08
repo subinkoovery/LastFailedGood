@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/event_background"
+    android:layout_height="match_parent"
+    tools:context="in.dreamseed.thanbee.Single_Full_News"
+    android:weightSum="7"
+    >
+
+    <TextView
+        android:id="@+id/single_head"
+        android:minWidth="1000dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:background="@color/list_odd"
+        android:text="Great Subu "
+        android:gravity="center"
+        android:textSize="19dp"
+        />
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:minWidth="1000dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:id="@+id/single_tail"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" subu is working hard" />
+        </ScrollView>
+
+
+</LinearLayout>

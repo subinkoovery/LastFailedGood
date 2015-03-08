@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context="subu.dreamseed.thanbeehul.AboutFragment"
+    android:id="@+id/MainAbout">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/event_main"
+        android:layout_gravity="center_horizontal|top" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="                For 75 years, Thanbeehul Islam has served the education needs of people of kasaragod town and surrounding localities . We’re celebrating a milestone during the 2013-14 academic year with a great pleasure and enthusiasm. Our rapid growth from humble beginning in Naimarmoola badar juma masjid to several educational institutions was beyond imagination. Today, Thanbeehul Islam reach extends across the Kasaragod district and as it leads revolutions in education. We hope you’ll enjoy this trip through history with us.
+       "
+        android:id="@+id/textView2"
+        android:textColor="@color/background_material_dark"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. BADAR JUMA MASJID - 1923"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             Badar Juma Masjid has been the center of innovation in religious guidance, educational and cultural activities for the people of Kasaragod .The gracious members of Badar juma masjid jamaath illuminate their knowledge into reality from the experience and knowledge of their ancestors .Today Thanbeehul Islam institutions are the  symbols of Education in Kasaragod."
+        android:id="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2. THANBEEHUL ISLAM PALLI DARS -1923"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             This is the foundation of all our endeavors in the field of education. This institution empowers people by understanding their religious duty to serve mankind through education. This institution provides Sharia based education along with general education. Scholars from this institution have taken up the big task of enlightening the people through religious education .This spiritual venture is to fill the incompleteness of materialistic education through moral values.."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3. THANBEEHUL ISLAM HIGHER SECONDARY MADRASSA - 1939"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             This Institution follow traditional madrassa system of Samasta Kerala Islam Matha Vidyabyasa Board. Our main focus is to train the students from the very beginning which make them aware of religious knowledge and morality which are taught by well experienced muallims who capture the very essence of the Holy Quran and the Sunna.."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="4. THANBEEHUL ISLAM HIGHER SECONDARY SCHOOL - 1939"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             Thanbeehul Islam Higher Secondary School is one of the best disciplined and oldest  Govt. Aided School in Kasaragod, and the largest in number of students. The school has the most experienced and committed faculties .Our alumni are well settled and serving societies all over the world.."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="5. THANBEEHUL ISLAM TEACHER TRAINING CENTRE - 2004"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             Thanbeehul Islam Teacher Training Centre is approved by the central and state governments which offer DEd (Diploma in education).Through the two-year programme the students gain well training to become a good teacher to provide foundation to the beginners in education. ."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="6. THANBEEHUL ISLAM WOMENS COLLEGE (AFSAL-UL-ULAMA) - 2005"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             Thanbeehul Islam womens college  is affiliated to Kannur University  with a clear vision of empowering girls  through proper education and guidance.Our motto is ”Educating a woman is equivalent to educating a generation”, through well qualified university approved faculties.."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="7. THANBEEHUL ISLAM NURSERY SCHOOL - 2006"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             It is the largest nursery school in Kasaragod. Our goal  is to provide the best education to the children of common people and train them with good manners and develop in them the  trait of equality.."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="8. THANBEEHUL ISLAM CENTRAL SCHOOL - 2006"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             It is recognized by the CBSE (Central board of secondary education).Our aim is to provide quality and competent modern education to understand and challenge the present world of technology development.."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="9. THANBEEHUL ISLAM WOMANS CENTRE - 2008"
+        android:layout_below="@+id/about2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="             This centre has been created only for women, focusing  their moral duties. The centre is facilitating the  Muslim women to perform their duties as per their religious beliefs and providing  guidance  to live in a pluralistic society.Being situated opposite to Government college vidyanagar,which helps college girls students to perform their noon prayer."
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"></TextView>
+
+
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
